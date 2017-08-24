@@ -6,17 +6,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by denystymoshkevych on 8/23/17.
+ * Created by danishevskyi on 8/23/17.
  */
 public class KitchenDao {
 
     private List<Salate> db = new ArrayList<Salate>();
 
     public boolean save(Salate salate){
-        if (salate == null) {
+        if (salate != null) {
             db.add(salate);
+            System.out.println("Success");
             return true;
         }
+        System.out.println("Fail");
+
         return false;
     }
 

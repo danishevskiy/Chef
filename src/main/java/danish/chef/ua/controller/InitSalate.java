@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by denystymoshkevych on 8/24/17.
+ * Created by danishevskyi on 8/24/17.
  */
 public class InitSalate {
 
