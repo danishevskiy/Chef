@@ -32,5 +32,14 @@ public class Component {
     public void setCount(double count) {
         this.count = count;
     }
+
+    @Override
+    public String toString() {
+        return "Component{" +
+                "vegetable=" + vegetable +
+                ", count=" + count +
+                " kg" +
+                '}';
+    }
 }
 

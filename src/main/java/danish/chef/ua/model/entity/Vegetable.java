@@ -43,5 +43,18 @@ public enum Vegetable {
         return proteins;
     }
 
+    @Override
+    public String toString() {
+        return name()+
+                " calories=" + calories +
+                " Kcal per 100 grams\n" +
+                ", carbohydrates=" + carbohydrates +
+                " Kcal per 100 grams\n" +
+                ", fats=" + fats +
+                " Kcal per 100 grams\n" +
+                ", proteins=" + proteins +
+                " Kcal per 100 grams\n" +
+                '}';
+    }
 }
 
