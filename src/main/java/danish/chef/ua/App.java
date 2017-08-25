@@ -17,5 +17,6 @@ public class App {
         KitchenDao kitchenDao = new KitchenDao();
         Salate salate = kitchen.getInitSalate().getSalate();
         kitchenDao.save(salate);
+        kitchenDao.delete(salate);
     }
 }
