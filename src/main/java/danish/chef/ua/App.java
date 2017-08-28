@@ -14,9 +14,9 @@ public class App {
         kitchen.cooking();
         System.out.println(kitchen.getInitSalate().getSalate().toString());
 
-        KitchenDao kitchenDao = new KitchenDao();
+        /*KitchenDao kitchenDao = new KitchenDao();
         Salate salate = kitchen.getInitSalate().getSalate();
         kitchenDao.save(salate);
-        kitchenDao.delete(salate);
+        kitchenDao.delete(salate);*/
     }
 }
