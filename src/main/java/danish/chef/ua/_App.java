@@ -7,8 +7,8 @@ import danish.chef.ua.model.entity.Salate;
 /**
  * Created by danishevskyi on 8/23/17.
  */
-public class App {
-
+public class _App {
+    public static int $;
     public static void main (String[] args) {
         Kitchen kitchen = new Kitchen();
         kitchen.cooking();
